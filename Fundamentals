@@ -1,0 +1,10 @@
+Database: A collection of tables that share connected data stored in a computer.
+Entity Relationship Diagrams(ERD): A diagram that shows how data is structured in a database.
+SQL: A language that allows us to access data stored in a database.
+
+Most popular type of SQL Databases:
+    MySQL
+    Access
+    Oracle
+    Microsoft SQL Server
+    Postgres
