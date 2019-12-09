@@ -1,10 +1,32 @@
-Database: A collection of tables that share connected data stored in a computer.
-Entity Relationship Diagrams(ERD): A diagram that shows how data is structured in a database.
-SQL: A language that allows us to access data stored in a database.
+Lesson 1
+    Database: A collection of tables that share connected data stored in a computer.
+    Entity Relationship Diagrams(ERD): A diagram that shows how data is structured in a database.
+    SQL: A language that allows us to access data stored in a database.
 
-Most popular type of SQL Databases:
-    MySQL
-    Access
-    Oracle
-    Microsoft SQL Server
-    Postgres
+    Most popular type of SQL Databases:
+        MySQL
+        Access
+        Oracle
+        Microsoft SQL Server
+        Postgres
+    Statements:
+    1. A piece of correctly writen SQL code.
+    2. A way to manipulate data stored in a database.
+    3. A sentance.
+    4. A way to read data stored in a database.
+        Example - 
+            # CREATE TABLE is a statement that creates a new table in a database.
+            # DROP TABLE is a statement that removes a table in a database.
+            # SELECT allows you to read data and display it. This is called a query.
+
+    SELECT: indicates which column(s) you want to be given the data for.
+    FROM: specifies from which table(s) you want to select the columns. Notice the columns need to exist in this table.
+    * = select star means all
+
+    SELECT and FROM in Every SQL Query
+    Every query will have at least a SELECT and FROM statement. 
+    The SELECT statement is where you put the columns for which you would like to show the data. 
+    The FROM statement is where you put the tables from which you would like to pull data.
+    
+    LIMIT statement is useful when you want to see just the first few rows of a table.
+    LIMIT command is always the very last part of a query.
