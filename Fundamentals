@@ -30,3 +30,16 @@ Lesson 1
     
     LIMIT statement is useful when you want to see just the first few rows of a table.
     LIMIT command is always the very last part of a query.
+
+    ORDER BY: 
+    1. Allows us to sort our results using the data in any column. 
+    2. ORDER BY in a SQL query only has temporary effects, for the results of that query, 
+       unlike sorting a sheet by column in Excel or Sheets.
+    3. Always comes in a query after the SELECT and FROM statements, but before the LIMIT statement.
+    4. DESC can be added after the column in your ORDER BY statement to sort in descending order, 
+       as the default is to sort in ascending order.
+
+
+
+
+
