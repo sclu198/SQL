@@ -39,7 +39,41 @@ Lesson 1
     4. DESC can be added after the column in your ORDER BY statement to sort in descending order, 
        as the default is to sort in ascending order.
 
+    WHERE:
+    1. we can display subsets of tables based on conditions that must be met.
+    2. filtering the data
+    3. Common symbols - 
+            > (greater than)
+            < (less than)
+            >= (greater than or equal to)
+            <= (less than or equal to)
+            = (equal to)
+            != (not equal to)
+     4. WHERE statement can also be used with non-numeric data. Use single quotes with the text data.
+     5. Commonly when we are using WHERE with non-numeric data fields, we use the LIKE, NOT, or IN operators.
 
-
-
-
+    Arithmetic Operators
+    1. Derived Columns: 
+            * Creating a new column that is a combination of existing columns is known as a derived column 
+              (or "calculated" or "computed" column). Usually you want to give a name, or "alias," to your new column using the AS keyword.
+            * This derived column, and its alias, are generally only temporary, existing just for the duration of your query.
+    2. * (Multiplication)
+       + (Addition)
+       - (Subtraction)
+       / (Division)
+       
+Logical Operators       
+    LIKE (CN Intro, https://www.1keydata.com/tw/sql/sqllike.html):
+    1. LIKE operator is extremely useful for working with text.
+    2. use LIKE within a WHERE clause.
+    3. The LIKE operator is frequently used with %.
+        Remark: wildcard (萬用字元, https://www.1keydata.com/tw/sql/sql-wildcard.html)
+       
+       
+       
+    
+    
+    
+    
+    
+    
