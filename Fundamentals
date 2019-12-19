@@ -94,6 +94,10 @@ Logical Operators
     BETWEEN	    WHERE Col BETWEEN 3 AND 5	    Often easier syntax than using an AND
     
     
+Lesson 2
+
+    Inner Join (CN Intro: https://www.fooish.com/sql/inner-join.html)
+    
     
     
     
