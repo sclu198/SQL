@@ -101,6 +101,7 @@ Lesson 2
             Foreign Key (FK)
             Alias
         Outer Join (LEFT, RIGHT, FULL)
+        NULL
         
     
     
